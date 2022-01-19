@@ -10,6 +10,7 @@ const App = () => {
     <BrowserRouter>
       <NavBar />
       <LinksBar />
+      <hr />
       <Switch>
         <Main />
       </Switch>

@@ -13,7 +13,7 @@ const LinksBar = () => {
                     <Link to="/home" className='col'>
                         <button className='btn btn-primary round'><strong>Home</strong></button>
                     </Link>
-                    <Link to="/4" className='col'>
+                    <Link to="/number/4" className='col'>
                         <button className='btn btn-success round'><strong>Number 4</strong></button>
                     </Link>
                     <Link to="/hello" className='col'>

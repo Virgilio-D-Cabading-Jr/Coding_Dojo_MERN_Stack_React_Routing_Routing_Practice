@@ -16,7 +16,7 @@ const NavBar = () => {
                         </h2>
                     </div>
                     <Link to="/">
-                        <button className='btn btn-secondary round'><strong>Home</strong></button>
+                        <button className='btn btn-secondary round'><strong>Root</strong></button>
                     </Link>
                 </div>
             </div>

@@ -1,10 +1,9 @@
 import React from 'react'
+import { BrowserRouter, Link, Switch, Route } from 'react-router-dom';
 
 /**
- * //////////////////////////////////////////////////////////
- *      NAVIGATION BAR COMPONENT
- * //////////////////////////////////////////////////////////
- * @returns A Navigation Bar
+ * NAVIGATION BAR COMPONENT ////////////////////////////////////
+ * @returns HTML for a Navigation Bar
  */
 const NavBar = () => {
     return (
@@ -16,9 +15,9 @@ const NavBar = () => {
                             <strong>React Routing Practice</strong>
                         </h2>
                     </div>
-                    <div>
+                    <Link to="/">
                         <button className='btn btn-secondary round'><strong>Home</strong></button>
-                    </div>
+                    </Link>
                 </div>
             </div>
         </header>

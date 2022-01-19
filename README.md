@@ -9,3 +9,5 @@ Language : Javascript
 Libary: React
 
 Sripts Used: npm, create-react-app, react-router-dom@5
+
+Platform: Visual Studio Code
